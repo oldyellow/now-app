@@ -119,7 +119,7 @@ export default React.createClass({
     }
 
     window.sliderElement.setState({
-      loginText: `We sent an email to <strong>${email}</strong>.<br>Please make sure the provided security code matches <b>${securityCode}</b> and follow the link within it.`
+      loginText: `We sent an email to <strong>${email}</strong>.<br />Please make sure the provided security code matches <br /> <b>${securityCode}</b> <br /> and follow the link within it.`
     })
 
     this.setState({
